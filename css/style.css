@@ -1,0 +1,44 @@
+/* hide number increase decrease button */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input{
+  background: #b2beb57e;
+  padding: 10px 25px;
+  border-radius: 5px;
+  width: 80%;
+  border: none;
+}
+label{
+  width: 70%;
+}
+
+
+button {
+  border: none;
+  color: #FFFFFF;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #278ff7;
+  border: none;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ button:active {
+  color: #0070df;
+  box-shadow: inset 4px 4px 12px hsl(195, 100%, 50%),
+              inset -4px -4px 12px #00ffff;
+ }
