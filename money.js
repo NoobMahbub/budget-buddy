@@ -89,13 +89,21 @@ document.getElementById("save-btn").addEventListener("click", function() {
            
           })
     }
+    else if(savingAmount<0){
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: "Savings percentage can't be negative",
+           
+          });
+    }
     else if(savingAmount>remainingBalance){
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
             text: 'You have not enough money for savings!',
            
-          })
+          });
             
         }    
     else{
