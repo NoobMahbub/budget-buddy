@@ -49,9 +49,10 @@ Swal.fire({
 
         //updating total balance after spending income money on expenses
         document.getElementById('balance').innerText = balance;
-        }
         document.getElementById("save-btn").disabled = false;
         element = document.getElementById('save-btn').classList.add("btn-style");
+        }
+       
     }
 
 
