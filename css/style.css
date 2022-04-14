@@ -24,7 +24,7 @@ label{
 }
 
 
-button {
+.btn-style {
   border: none;
   color: #FFFFFF;
   padding: 0.7em 1.7em;
@@ -37,7 +37,7 @@ button {
               -6px -6px 12px #ffffff;
  }
  
- button:active {
+ .btn-style:active {
   color: #0070df;
   box-shadow: inset 4px 4px 12px hsl(195, 100%, 50%),
               inset -4px -4px 12px #00ffff;
